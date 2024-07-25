@@ -1,7 +1,9 @@
 DESCRIÇÃO <br>
+
 💻Este projeto é desenvolvido como parte da 'Carreira de Desenvolvedor Full Stack' da CoderHouse, em dupla com Luana Campos.💻
 <br>
-🧠Ideias serão expostar aqui🧠
+
+🧠Ideias serão expostar aqui🧠<br>
 <br>
 *
 <br>
