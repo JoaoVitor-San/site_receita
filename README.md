@@ -30,4 +30,3 @@ DESCRIÇÃO <br>
 🖋️AUTORES🖋️<br>
 Luana campos (Luana-hub-design)<br>
 João Vitor Santana (JoaoVitor-San)<br>
-... -->
