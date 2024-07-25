@@ -1,4 +1,4 @@
-DESCRIÇÃO
+DESCRIÇÃO <br>
 💻Este projeto é um site em desenvolvimento como parte da 'Carreira de Desenvolvedor Full Stack' da CoderHouse, em dupla com Luana Campos.💻
 <br>
 🧠Ideias serão expostar aqui🧠
