@@ -4,20 +4,16 @@ DESCRIÇÃO <br>
 <br>
 
 🧠Ideias serão expostar aqui🧠<br>
-<br>
-*
-<br>
-*
-<br>
-*
-<br>
-*
-<br>
-*
-<br>
-*
-<br>
-*
+
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>  
 <hr>
 
 ⚙️FUNCIONALIDADES⚙️ <br>
