@@ -5,7 +5,8 @@ DESCRIÇÃO <br>
 
 🧠Ideias serão expostar aqui🧠<br>
 
-    <ul>
+
+<ul>
       <li></li>
       <li></li>
       <li></li>
@@ -13,7 +14,8 @@ DESCRIÇÃO <br>
       <li></li>
       <li></li>
       <li></li>
-    </ul>  
+</ul>  
+    
 <hr>
 
 ⚙️FUNCIONALIDADES⚙️ <br>
