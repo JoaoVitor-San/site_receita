@@ -67,6 +67,50 @@ body{
     margin-left: 5px; /* Adiciona 5px de margem à esquerda do botão */
 }
 
-.search-form button:hover {
-    background-color: #0056b3; /* Muda a cor de fundo do botão para um azul mais escuro quando o cursor passa sobre ele */
+.barraPesquisa button:hover {
+    background-color: #352207; /* Muda a cor de fundo do botão para um azul mais escuro quando o cursor passa sobre ele */
+}
+
+/*estilo da caixa de login*/
+.login-box {;
+    background-color: #835b2d; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
+    padding: 25px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
+    border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
+    width: 300px; /* Define a largura da caixa de login como 300px */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    position: absolute; /* Faz com que a caixa seja posicionada em relação ao elemento pai */
+    top: 50%; /* Posiciona a parte superior da caixa a 50% da altura da tela */
+    left: 50%; /* Posiciona o lado esquerdo da caixa a 50% da largura da tela */
+    transform: translate(-50%, -50%); /* Move a caixa para que fique exatamente no centro */
+}
+}
+
+.login-box h2 {
+    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+    text-align: center; /* Centraliza o texto do título dentro da caixa de login */
+    color: #000000; /* Define a cor do texto do título como cor preta */
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%; /* Define a largura dos campos de entrada para ocupar 100% da largura da caixa de login */
+    padding: 10px; /* Adiciona 10px de espaçamento interno nos campos de entrada */
+    margin-bottom: 10px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
+    border: 1px solid #ccc; /* Define uma borda cinza clara (#ccc) ao redor dos campos de entrada */
+    border-radius: 4px; /* Define bordas arredondadas com um raio de 4px para os campos de entrada */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura totais dos campos */
+}
+
+.login-box input[type="submit"] {
+    width: 100%; /* Define a largura do botão de envio para ocupar 100% da largura da caixa de login */
+    padding: 10px; /* Adiciona 10px de espaçamento interno ao botão de envio */
+    background-color: #f7ca96; /* Define a cor de fundo do botão de envio(#00ff19) */
+    color: #0f1120; /* Define a cor do texto do botão de envio */
+    border: none; /* Remove qualquer borda padrão do botão de envio */
+    border-radius: 6px; /* Define bordas arredondadas com um raio de 6px para o botão de envio */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o botão, indicando que é clicável */
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #443607; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
 }
