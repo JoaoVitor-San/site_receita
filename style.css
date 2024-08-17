@@ -72,7 +72,7 @@ body{
 }
 
 /*estilo da caixa de login*/
-.login-box {;
+.login-box {
     background-color: #835b2d; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
     padding: 25px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
     border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
@@ -82,7 +82,6 @@ body{
     top: 50%; /* Posiciona a parte superior da caixa a 50% da altura da tela */
     left: 50%; /* Posiciona o lado esquerdo da caixa a 50% da largura da tela */
     transform: translate(-50%, -50%); /* Move a caixa para que fique exatamente no centro */
-}
 }
 
 .login-box h2 {
