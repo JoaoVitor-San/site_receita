@@ -1,0 +1,77 @@
+/*estilo do corpo da pagina*/
+body{
+    background-color: #f7ca96; /*define a cor do fundo da pagina*/
+}
+
+/* Estilo para a imagem do logotipo */
+.imagemhome {
+    position: absolute; /* Posiciona a imagem de forma absoluta em relação ao elemento pai */
+    top: 5px; /* Define 5px de distância do topo do elemento pai */
+    left: 50px; /* Define 50px de distância da borda esquerda do elemento pai */
+    width: 80px; /* Define a largura da imagem para 80px */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    display: flex; /* Usa Flexbox para organizar os itens filhos em linha */
+    justify-content: space-between; /* Distribui o espaço entre os itens, colocando-os nas extremidades */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    background-color: #835b2d; /* Define a cor de fundo da barra de navegação para um tom escuro */
+    padding: 10px; /* Adiciona 10px de padding em todas as direções dentro da barra de navegação */
+}
+
+/* Estilo para a imagem do logotipo (duplicado) */
+.imagemhome {
+    width: 50px; /* Define a largura da imagem para 50px */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Estilo para os links de navegação */
+.nav-links {
+    list-style: none; /* Remove os marcadores de lista padrão (bolinhas) */
+    display: flex; /* Usa Flexbox para organizar os links em linha */
+    margin: 0; /* Remove as margens ao redor da lista */
+    padding: 0; /* Remove o padding padrão ao redor da lista */
+}
+
+.nav-links li {
+    margin-left: 70px; /* Adiciona 20px de margem à esquerda de cada item de lista */
+}
+
+.nav-links a {
+    color: white; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-size: 16px; /* Define o tamanho da fonte dos links para 16px */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao link quando o cursor passa sobre ele */
+}
+
+/* Estilo para a barra de pesquisa */
+.search-form {
+    display: flex; /* Usa Flexbox para alinhar os elementos da barra de pesquisa em linha */
+    align-items: center; /* Alinha os itens da barra de pesquisa ao centro verticalmente */
+}
+
+.search-form input[type="text"] {
+    padding: 5px; /* Adiciona 5px de padding dentro do campo de texto */
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do campo de pesquisa para 16px */
+    border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
+    border: 1px solid #ccc; /* Define uma borda de 1px de largura com cor cinza claro */
+}
+
+.search-form button {
+    padding: 5px 10px; /* Adiciona 5px de padding na parte superior e inferior, e 10px nas laterais do botão */
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do botão para 16px */
+    border: none; /* Remove qualquer borda ao redor do botão */
+    border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
+    background-color: #007BFF; /* Define a cor de fundo do botão para azul */
+    color: white; /* Define a cor do texto dentro do botão como branco */
+    margin-left: 5px; /* Adiciona 5px de margem à esquerda do botão */
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo do botão para um azul mais escuro quando o cursor passa sobre ele */
+}
