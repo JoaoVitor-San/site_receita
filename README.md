@@ -7,10 +7,10 @@ DESCRIÇÃO <br>
 
 
 <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>Ter ao menos 5 abas navegaveis</li>
+      <li>Conter imagens, logo e banners clickaveis e não clickaveis</li>
+      <li>Conter uma aba de cadastro/login</li>
+      <li>Conter links externos</li>
       <li></li>
       <li></li>
       <li></li>
