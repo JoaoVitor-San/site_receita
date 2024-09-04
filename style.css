@@ -2,13 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
+<<<<<<< HEAD
     font-family: Roboto,"sans serif";
 }
 /*estilo do corpo da pagina*/
 body{
     background-color: #fcebd6; /*define a cor do fundo da pagina*/
+=======
+    font-family: 'roboto', sans-serif;
+}
+
+
+/*estilo do corpo da pagina*/
+body{
+    background-color: #f5eee1; /*define a cor do fundo da pagina*/
+    
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 H1{
+    text-align: center;
+}
+
+h4{
     text-align: center;
 }
 
@@ -71,10 +86,16 @@ H1{
     display: flex; /* Usa Flexbox para organizar os itens filhos em linha */
     justify-content: center; /* Distribui o espaço entre os itens, colocando-os nas extremidades */
     align-items: center; /* Alinha os itens ao centro verticalmente */
+<<<<<<< HEAD
     background-color: #835b2dbd; /* Define a cor de fundo da barra de navegação para um tom escuro */ 
     padding: 16px; /* Adiciona 10px de padding em todas as direções dentro da barra de navegação */
     margin-left: 20px;
     margin-right: 20px;
+=======
+    background-color:#cea375; /* Define a cor de fundo da barra de navegação para um tom escuro */
+    padding: 24px; /* Adiciona 10px de padding em todas as direções dentro da barra de navegação */
+    margin: 8px;
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 
 /* Estilo para os links de navegação */
@@ -90,14 +111,31 @@ H1{
 }
 
 .nav-links a {
+<<<<<<< HEAD
     font-style: normal;
     color:#352207; /* Define a cor do texto dos links como branca */
+=======
+    color: #2a2c31; /* Define a cor do texto dos links como branca */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     font-size: 20px; /* Define o tamanho da fonte dos links para 16px */
 }
 
 .nav-links a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao link quando o cursor passa sobre ele */
+}
+
+/* Estilo para a página de cadastro */
+
+.cadastro h1{
+    padding: 48px; /* Adiciona 10px de espaçamento interno nos campos de entrada */
+    margin-bottom: 16px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
+    border: 2px solid #5a2e2e56; /* Define uma borda cinza clara (#ccc) ao redor dos campos de entrada */
+    border-radius: 8px; /* Define bordas arredondadas com um raio de 4px para os campos de entrada */
+}
+
+.cadastro h3{
+    align-items: center;
 }
 
 /* Estilo para a barra de pesquisa */
@@ -111,15 +149,22 @@ H1{
 
 .barraPesquisa input[type="text"] {
     padding: 4px; /* Adiciona 5px de padding dentro do campo de texto */
+<<<<<<< HEAD
     font-size: 14px; /* Define o tamanho da fonte do texto dentro do campo de pesquisa para 16px */
     border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
     border: 1px solid #ccc; /* Define uma borda de 1px de largura com cor cinza claro */
     padding: 8px;
     width: 25%;
+=======
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do campo de pesquisa para 16px */
+    border-radius: 4px; /* Define bordas arredondadas com 5px de raio */
+    border: 1px solid #fffedf; /* Define uma borda de 1px de largura com cor cinza claro */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 
 .barraPesquisa button {
     padding: 4px 16px; /* Adiciona 5px de padding na parte superior e inferior, e 10px nas laterais do botão */
+<<<<<<< HEAD
     font-size: 14px; /* Define o tamanho da fonte do texto dentro do botão para 16px */
     border: none; /* Remove qualquer borda ao redor do botão */
     border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
@@ -128,16 +173,30 @@ H1{
     margin-left: 4px; /* Adiciona 5px de margem à esquerda do botão */
     padding: 8px;
     width: 5%;
+=======
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro do botão para 16px */
+    border: none; /* Remove qualquer borda ao redor do botão */
+    border-radius: 4px; /* Define bordas arredondadas com 5px de raio */
+    background-color: #dfba69; /* Define a cor de fundo do botão para azul */
+    color: #2a2c31 /* Define a cor do texto dentro do botão como branco */
+    margin-left: 4px /* Adiciona 5px de margem à esquerda do botão */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 
 .barraPesquisa button:hover {
-    background-color: #352207; /* Muda a cor de fundo do botão para um azul mais escuro quando o cursor passa sobre ele */
+    background-color: #3522077a; /* Muda a cor de fundo do botão para um azul mais escuro quando o cursor passa sobre ele */
 }
 
 /*estilo da caixa de login*/
 .login-box {
+<<<<<<< HEAD
     background-color: #835b2d; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
     padding: 80px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
+=======
+    background-color:#cea375; /* Define a cor de fundo da barra de navegação para um tom escuro */
+    ; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
+    padding: 24px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
     border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
     width: 300px; /* Define a largura da caixa de login como 300px */
     margin: 0 auto; /* Centraliza horizontalmente */
@@ -148,10 +207,17 @@ H1{
 }
 
 .login-box h2 {
+<<<<<<< HEAD
     margin-bottom: 64px; /* Adiciona 20px de espaço abaixo do título */
     text-align: center; /* Centraliza o texto do título dentro da caixa de login */
     color:#fcebd6; /* Define a cor do texto do título como cor preta */
     font-size: 28px;
+=======
+    margin-bottom: 24px; /* Adiciona 20px de espaço abaixo do título */
+    padding: 8px; 
+    text-align: center; /* Centraliza o texto do título dentro da caixa de login */
+    color: #fffedf; /* Define a cor do texto do título como cor preta */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 
 .login-box input[type="email"],
@@ -159,32 +225,76 @@ H1{
 .login-box input[type="password"] {
     width: 100%; /* Define a largura dos campos de entrada para ocupar 100% da largura da caixa de login */
     padding: 16px; /* Adiciona 10px de espaçamento interno nos campos de entrada */
+<<<<<<< HEAD
     margin-bottom: 32px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
     border: 1px solid #ccc; /* Define uma borda cinza clara (#ccc) ao redor dos campos de entrada */
     border-radius: 4px; /* Define bordas arredondadas com um raio de 4px para os campos de entrada */
+=======
+    margin-bottom: 16px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
+    border: 2px solid #5a2e2e; /* Define uma borda cinza clara (#ccc) ao redor dos campos de entrada */
+    border-radius: 8px; /* Define bordas arredondadas com um raio de 4px para os campos de entrada */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
     box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura totais dos campos */
 }
+
+.login-box input[type="email"]:hover{
+background-color: #f7ede7;
+
+}.login-box input[type="password"]:hover{
+    background-color: #f7ede7;
+    }
 
 .login-box input[type="submit"] {
     width: 100%; /* Define a largura do botão de envio para ocupar 100% da largura da caixa de login */
     padding: 16px; /* Adiciona 10px de espaçamento interno ao botão de envio */
+<<<<<<< HEAD
     background-color: #f7ca96; /* Define a cor de fundo do botão de envio(#00ff19) */
     color:#352207; /* Define a cor do texto do botão de envio */
     border: none; /* Remove qualquer borda padrão do botão de envio */
     border-radius: 6px; /* Define bordas arredondadas com um raio de 6px para o botão de envio */
     box-shadow: 5px 5px 5px rgba(83, 57, 36, 0.548); /* offset-x | offset-y | blur-radius | color */ /*coloca uma sombra atrás da caixa*/
+=======
+    background-color: #5a2e2e; /* Define a cor de fundo do botão de envio(#00ff19) */
+    color: #fffedf; /* Define a cor do texto do botão de envio */
+    border: none; /* Remove qualquer borda padrão do botão de envio */
+    border-radius: 8px; /* Define bordas arredondadas com um raio de 6px para o botão de envio */
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
     cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o botão, indicando que é clicável */
 }
 
 .login-box input[type="submit"]:hover {
+<<<<<<< HEAD
     background-color:#fcebd6; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
+=======
+    background-color: #5a2e2e; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
+    opacity: 0.7;
+}
+
+.cartaDeCafes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.cartaDeCafes img {
+    margin-right: 100px;
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
 }
 
 footer{
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     height:fit-content           
       
+=======
+    height: 2.5rem; 
+
+>>>>>>> ed3f39cdbcccf957ee3688204205a6efe02e6137
   }
   
   #footer_content {
@@ -224,3 +334,4 @@ footer{
       width: 2.5rem;
       color: #352207;
   }
+
