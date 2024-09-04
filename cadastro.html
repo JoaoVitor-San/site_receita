@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
     <nav class="navbar">
         <a href="index.html">
             <img class="imagemhome" src="imagem/xicara.png" alt="Xicara de café"> 
@@ -29,30 +30,52 @@
             <li><a href="login.html">Login</a></li>
             <li><a href="cadastro.html">Cadastro</a></li>
         </ul>
-        <form class="barraPesquisa">
-            <input type="text" placeholder="Buscar...">
-            <button type="submit">Buscar</button>
-        </form>
+      
     </nav>
 
-    <h1>Cadastro</h1>
+    <form class="barraPesquisa">
+        <input type="text" placeholder="Buscar...">
+        <button type="submit">Buscar</button>
+    </form>
 
-    <div class="login-box">
 
-        <h2><strong>Cadastre-se</strong></h2> <!-- Título dentro da caixa de login, em negrito para destacar -->
 
-        <form action="pagina-inicial.html" method="post"> <!-- Inicia um formulário que envia os dados via método POST para a página "pagina-inicial.html" -->
+    <div class="titulo-cadastro">
+        <h1><strong>Seja fidelidade </strong> </h1>
 
-            <input type="email" name="email" placeholder="E-mail"> <!--Campo de entrada para email.-->
-
-            <input type="password" name="password" placeholder="Senha"> <!-- Campo de entrada para a senha.-->
-
-            <input type="submit" class="" value="Acessar"> <!--botão de acesso-->
-
-            <a href="index.html" class="botao">Acessar</a>
-            
-        </form>
     </div>
+     
+    <div class="imagemsejafidelidade">
+        <img class="sejafidelidade" src="https://img.freepik.com/fotos-gratis/vista-frontal-mulher-trabalhando-como-barista_23-2150379155.jpg?t=st=1725409170~exp=1725412770~hmac=03094a6cdc9cebe6c48c898fe894546a14d7c34c428a1d9fdafbac0220960e82&w=1380" alt="sejafidelidade!"> 
+    </div>
+
+    <div class="subtitulo-cadastro">
+        <h4> Colecione pontos e ganhe descontos após a sua primeira compra</h4> 
+    </div>
+     
+
+
+        <div class="login-box">
+
+            <h2><strong>Insira os seus dados</strong></h2> <!-- Título dentro da caixa de login, em negrito para destacar -->
+    
+            <form action="pagina-inicial.html" method="post"> <!-- Inicia um formulário que envia os dados via método POST para a página "pagina-inicial.html" -->
+    
+                <input type="email" name="email" placeholder="E-mail"> <!--Campo de entrada para email.-->
+    
+                <input type="password" name="password" placeholder="Senha"> <!-- Campo de entrada para a senha.-->
+    
+                <input type="cpf" name="cpf" placeholder=" CPF"> <!-- Campo de entrada para o cpf.-->
+    
+                <input type="submit" class="" value="Acessar"> <!--botão de acesso-->
+    
+                <a href="index.html" class="botao">Acessar</a>
+                
+            </form>
+        
+        </div>
+    </div>
+   
 
     <footer>
         <div id="footer_content">
@@ -84,6 +107,7 @@
             </div>
         </div>
      </footer>
-    
+    </div>
+
 </body>
 </html>

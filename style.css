@@ -1,10 +1,12 @@
 /*estilo de fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+*{
+    font-family: Roboto,"sans serif";
+}
 /*estilo do corpo da pagina*/
 body{
-    background-color: #f7ca96; /*define a cor do fundo da pagina*/
+    background-color: #fcebd6; /*define a cor do fundo da pagina*/
 }
 H1{
     text-align: center;
@@ -16,6 +18,33 @@ H1{
     cursor: pointer;
 }
 
+
+.titulo-cadastro,
+.subtitulo-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 64px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 204px;
+    font-size: 20px;
+    border:#352207;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(236, 192, 156, 0.548); /* offset-x | offset-y | blur-radius | color */ /*coloca uma sombra atrás da caixa*/
+    background-color:rgba(252, 252, 252, 0.733)
+    
+}
+
+.subtitulo-cadastro{
+    margin-top: 64px;
+}
+
+
+
 /* Estilo para a imagem do logotipo */
 .imagemhome {
     position: absolute; /* Posiciona a imagem de forma absoluta em relação ao elemento pai */
@@ -25,13 +54,27 @@ H1{
     height: auto; /* Mantém a proporção original da imagem */
 }
 
+.imagemsejafidelidade{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 6px;
+    height:auto
+    
+
+}
+
 /* Estilo da barra de navegação */
 .navbar {
     display: flex; /* Usa Flexbox para organizar os itens filhos em linha */
-    justify-content: space-between; /* Distribui o espaço entre os itens, colocando-os nas extremidades */
+    justify-content: center; /* Distribui o espaço entre os itens, colocando-os nas extremidades */
     align-items: center; /* Alinha os itens ao centro verticalmente */
-    background-color: #835b2d; /* Define a cor de fundo da barra de navegação para um tom escuro */
-    padding: 10px; /* Adiciona 10px de padding em todas as direções dentro da barra de navegação */
+    background-color: #835b2dbd; /* Define a cor de fundo da barra de navegação para um tom escuro */ 
+    padding: 16px; /* Adiciona 10px de padding em todas as direções dentro da barra de navegação */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Estilo para os links de navegação */
@@ -47,10 +90,10 @@ H1{
 }
 
 .nav-links a {
-    font-style: oblique;
-    color: rgb(0, 0, 0); /* Define a cor do texto dos links como branca */
+    font-style: normal;
+    color:#352207; /* Define a cor do texto dos links como branca */
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    font-size: 16px; /* Define o tamanho da fonte dos links para 16px */
+    font-size: 20px; /* Define o tamanho da fonte dos links para 16px */
 }
 
 .nav-links a:hover {
@@ -61,23 +104,30 @@ H1{
 .barraPesquisa {
     display: flex; /* Usa Flexbox para alinhar os elementos da barra de pesquisa em linha */
     align-items: center; /* Alinha os itens da barra de pesquisa ao centro verticalmente */
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .barraPesquisa input[type="text"] {
-    padding: 5px; /* Adiciona 5px de padding dentro do campo de texto */
-    font-size: 16px; /* Define o tamanho da fonte do texto dentro do campo de pesquisa para 16px */
+    padding: 4px; /* Adiciona 5px de padding dentro do campo de texto */
+    font-size: 14px; /* Define o tamanho da fonte do texto dentro do campo de pesquisa para 16px */
     border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
     border: 1px solid #ccc; /* Define uma borda de 1px de largura com cor cinza claro */
+    padding: 8px;
+    width: 25%;
 }
 
 .barraPesquisa button {
-    padding: 5px 10px; /* Adiciona 5px de padding na parte superior e inferior, e 10px nas laterais do botão */
-    font-size: 16px; /* Define o tamanho da fonte do texto dentro do botão para 16px */
+    padding: 4px 16px; /* Adiciona 5px de padding na parte superior e inferior, e 10px nas laterais do botão */
+    font-size: 14px; /* Define o tamanho da fonte do texto dentro do botão para 16px */
     border: none; /* Remove qualquer borda ao redor do botão */
     border-radius: 5px; /* Define bordas arredondadas com 5px de raio */
     background-color: #f7ca96; /* Define a cor de fundo do botão para azul */
     color: rgb(0, 0, 0); /* Define a cor do texto dentro do botão como branco */
-    margin-left: 5px; /* Adiciona 5px de margem à esquerda do botão */
+    margin-left: 4px; /* Adiciona 5px de margem à esquerda do botão */
+    padding: 8px;
+    width: 5%;
 }
 
 .barraPesquisa button:hover {
@@ -87,27 +137,29 @@ H1{
 /*estilo da caixa de login*/
 .login-box {
     background-color: #835b2d; /* Define a cor de fundo da caixa de login como um tom claro (#e7e7e7) */
-    padding: 25px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
+    padding: 80px; /* Adiciona 20px de espaçamento interno em todos os lados da caixa de login */
     border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
     width: 300px; /* Define a largura da caixa de login como 300px */
     margin: 0 auto; /* Centraliza horizontalmente */
-    position: absolute; /* Faz com que a caixa seja posicionada em relação ao elemento pai */
-    top: 50%; /* Posiciona a parte superior da caixa a 50% da altura da tela */
-    left: 50%; /* Posiciona o lado esquerdo da caixa a 50% da largura da tela */
-    transform: translate(-50%, -50%); /* Move a caixa para que fique exatamente no centro */
+    margin-top: 64px;
+    margin-bottom: 64px;
+    position:relative 
+   
 }
 
 .login-box h2 {
-    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+    margin-bottom: 64px; /* Adiciona 20px de espaço abaixo do título */
     text-align: center; /* Centraliza o texto do título dentro da caixa de login */
-    color: #000000; /* Define a cor do texto do título como cor preta */
+    color:#fcebd6; /* Define a cor do texto do título como cor preta */
+    font-size: 28px;
 }
 
 .login-box input[type="email"],
+.login-box input[type="cpf"],
 .login-box input[type="password"] {
     width: 100%; /* Define a largura dos campos de entrada para ocupar 100% da largura da caixa de login */
-    padding: 10px; /* Adiciona 10px de espaçamento interno nos campos de entrada */
-    margin-bottom: 10px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
+    padding: 16px; /* Adiciona 10px de espaçamento interno nos campos de entrada */
+    margin-bottom: 32px; /* Adiciona 10px de espaço abaixo de cada campo de entrada */
     border: 1px solid #ccc; /* Define uma borda cinza clara (#ccc) ao redor dos campos de entrada */
     border-radius: 4px; /* Define bordas arredondadas com um raio de 4px para os campos de entrada */
     box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura e altura totais dos campos */
@@ -115,31 +167,32 @@ H1{
 
 .login-box input[type="submit"] {
     width: 100%; /* Define a largura do botão de envio para ocupar 100% da largura da caixa de login */
-    padding: 10px; /* Adiciona 10px de espaçamento interno ao botão de envio */
+    padding: 16px; /* Adiciona 10px de espaçamento interno ao botão de envio */
     background-color: #f7ca96; /* Define a cor de fundo do botão de envio(#00ff19) */
-    color: #0f1120; /* Define a cor do texto do botão de envio */
+    color:#352207; /* Define a cor do texto do botão de envio */
     border: none; /* Remove qualquer borda padrão do botão de envio */
     border-radius: 6px; /* Define bordas arredondadas com um raio de 6px para o botão de envio */
+    box-shadow: 5px 5px 5px rgba(83, 57, 36, 0.548); /* offset-x | offset-y | blur-radius | color */ /*coloca uma sombra atrás da caixa*/
     cursor: pointer; /* Muda o cursor para um ponteiro ao passar sobre o botão, indicando que é clicável */
 }
 
 .login-box input[type="submit"]:hover {
-    background-color: #443607; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
+    background-color:#fcebd6; /* Muda a cor de fundo do botão de envio para azul (#0056b3) quando o mouse está sobre ele */
 }
 
 footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            
+    height:fit-content           
       
   }
   
   #footer_content {
-      background-color: #cea375 ;
+      background-color:#835b2da8 ;
       display: grid;
-      grid-template-columns: repeat(4,1fr);
-      padding: 3rem 3.5rem
+      grid-template-columns: repeat(2,1fr);
+      margin: 20px;
+      padding: 4rem 4.5rem
   }
   
   #footer_contacts h2{
