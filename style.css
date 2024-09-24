@@ -1,20 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     font-family: Roboto, "sans serif";
 }
 
 body {
     background-color: #fcebd6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
+
 
 H1 {
     text-align: center;
 }
 
-.bannerHome {
-    width: 100%;
-    height: 450px;
-    cursor: pointer;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    padding: 15px; 
 }
+
+.grid-item {
+    background-color: #f4f4f4;
+    border: #ccc;
+    padding: 20px; 
+    text-align: center; 
+}
+
 
 .titulo-cadastro,
 .subtitulo-cadastro {
@@ -41,7 +57,7 @@ H1 {
 
 .imagemhome {
     position: absolute;
-    top: 8px;
+    top: 2px;
     left: 50px;
     width: 50px;
     height: auto;
@@ -61,7 +77,7 @@ H1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px
+    padding: 15px;
     
 }
 
@@ -71,9 +87,8 @@ H1 {
     padding: 15px;
     text-align: center;
     margin: 10px;
-    width: 200px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    
+    width: 300px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
 }
 
 .produto img {
@@ -81,7 +96,7 @@ H1 {
     height: auto; 
     border-radius: 8px 8px 8px 8px; 
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .produto img:hover {
@@ -102,7 +117,48 @@ H1 {
     color: #000;
 }
 
+.menu-grid {
+    display: grid;
+    grid-template-columns: 3 , 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #8B4513;
+    font-weight: bold;
+}
 
 .navbar {
     display: flex;
@@ -136,76 +192,12 @@ H1 {
     text-decoration: underline;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
-.carrosel {
-    height: 520px;
-    width: 935px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .navigation {
     position: absolute;
     bottom: 220px;
     left: 950px;
     transform: translate(-50%, -20%);
     display: flex;
-}
-
-.bar {
-    width: 70px;
-    height: 17px;
-    border: 2px solid floralwhite;
-    margin: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .400ms;
-}
-
-.radio {
-    display: none;
-}
-
-.bar:hover {
-    background-color: #ffffff5d;
-}
-
-.slides {
-    display: flex;
-    width: 500px;
-    height: 100%;
-}
-
-.slide {
-    width: 20px;
-    transition: .6s;
-}
-
-.slide img {
-    width: 800px;
-    height: 800px;
-}
-
-#slide1:checked~.slides1 {
-    margin-left: -100px;
-}
-
-#slide2:checked~.slides1 {
-    margin-left: -800px;
-}
-
-#slide3:checked~.slides1 {
-    margin-left: -800px;
 }
 
 .barraPesquisa {
@@ -322,5 +314,5 @@ footer {
     justify-content: center;
     height: 2.5rem;
     width: 2.5rem;
-    color: #352207;
+    color: #352207;
 }
