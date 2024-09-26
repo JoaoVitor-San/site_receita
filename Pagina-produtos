@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .produto-img {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .produto-img img {
+            max-width: 100%;
+            height: auto;
+        }
+        .produto-info {
+            flex: 1;
+            padding-left: 20px;
+        }
+        .produto-info h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .produto-info p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .produto-info .preco {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .produto-info button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .produto-info button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="produto-img">
+            <img src="caminho-da-imagem-do-produto.jpg" alt="Imagem do Produto">
+        </div>
+        <div class="produto-info">
+            <h1>Nome do Produto</h1>
+            <p>Descrição detalhada do produto com informações relevantes para o cliente.</p>
+            <div class="preco">R$ 99,99</div>
+            <button onclick="location.href='carrinho.html'">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</body>
+</html>
