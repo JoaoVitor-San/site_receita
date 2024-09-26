@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="produto-img">
+            <img src="caminho-da-imagem-do-produto.jpg" alt="Imagem do Produto">
+        </div>
+        <div class="produto-info">
+            <h1>Nome do Produto</h1>
+            <p>Descrição detalhada do produto com informações relevantes para o cliente.</p>
+            <div class="preco">R$ 99,99</div>
+            <button onclick="location.href='carrinho.html'">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</body>
+</html>
