@@ -7,9 +7,10 @@
     border: none;
 }
 
+/*estilização do scrollbar(rolagem)*/
 
 html::-webkit-scrollbar{
-    width: 2rem;
+    width: 1.5rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -18,7 +19,7 @@ html::-webkit-scrollbar-track{
 
 html::-webkit-scrollbar-thumb{
     background-color: #ccc;
-    border: 5rem;
+    border: 3rem;
 }
 
 .background{
@@ -46,10 +47,9 @@ header{
 .logo img{ 
     margin-left: 5rem;
     width: 75px;
-    height: auto;}
+    height: auto;
+}
    
-
-
 ul{
     list-style: none;
     display: flex;
@@ -61,7 +61,7 @@ ul li{
 } /* estilização dos itens da lista */
 
 ul li a{
-    text-decoration: none; /* tirar as linhas roxas */ color: #4f3001;
+    text-decoration: none; /* tirar as linhas roxas */ 
     transition: 0.3s; /* para dar o efeito do hover sobre os links */
 
 }
@@ -69,7 +69,7 @@ ul li a{
 
  ul li a:hover{
    text-transform: capitalize;
-   color: rgb(136, 45, 3);
+   color: rgb(243, 236, 233);
    border-bottom: solid 1px;
  }
 
@@ -81,12 +81,6 @@ ul li a{
     color: #4f3001;
     font-size: 2rem;
     cursor: pointer;
-}
-
-hr{
-    border-bottom: solid 02px;
-    color: #462b027a;
-    margin-top: 16px;
 }
 
 .C-title{
@@ -121,8 +115,70 @@ hr{
     transition: 0.3s all;
 }
 
-/*Estilização section - sobre nós*/
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #835b2dbd;
+    padding: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-left: 70px;
+}
+
+.nav-links a {
+    font-style: normal;
+    color: #352207;
+    text-decoration: none;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 220px;
+    left: 950px;
+    transform: translate(-50%, -20%);
+    display: flex;
+}
+
+.barraPesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.barraPesquisa input[type="text"] {
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 25%;
+}
+
+.barraPesquisa button {
+    padding: 4px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #352207;
+    color: rgb(0, 0, 0);
+    margin-left: 4px;
+    padding: 8px;
+    width: 5%;
+}
+
+.barraPesquisa button:hover {
+    background-color: #f7ca96;
+}
+
+
+/*Estilização section - sobre nós*/
 .section-1{
     padding: 5rem;
 }
@@ -133,7 +189,7 @@ hr{
     color:#4f2701;
     font-size: 3rem;
 
-} /*título*/
+} /*título sobre nos*/
 
 .Sobre-nós{
     display: flex;
@@ -188,13 +244,9 @@ hr{
 }
 
 
-
-
 /* estilização menu */
 
 .container-produtos h1{
-    display: flex;
-    justify-content: center;
     text-align: center;
     align-items: center;
     color:#4f3001;
@@ -210,6 +262,7 @@ hr{
 }
 
 .Container-card-1{
+    background-color: #d9cec2b4;
     display: flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
@@ -219,11 +272,12 @@ hr{
 }
 
 .card-img{
-    border: solid 3px #372a219d;
+    border: solid 2px #372a219d;
     padding: 5rem;
     align-items: center;
     text-align: center;
     max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 25rem;
     border-radius: 8px;
 }
@@ -270,11 +324,11 @@ hr{
 .card-img:hover{
     transform:scale(1.1);
     transition: 0.5s all;
-    background-color: #4f300148;
+    background-color: #c79b5948;
 }
 
 
-
+/* estilização cardapio */
 
 .grid-container {
     display: grid;
@@ -288,48 +342,6 @@ hr{
     border: #ccc;
     padding: 20px; 
     text-align: center; 
-}
-
-
-.titulo-cadastro,
-.subtitulo-cadastro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    margin: 64px;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: auto;
-    height: 204px;
-    font-size: 20px;
-    border: #352207;
-    border-radius: 6px;
-    box-shadow: 5px 5px 5px rgba(236, 192, 156, 0.548);
-    background-color: rgba(252, 252, 252, 0.733);
-}
-
-.subtitulo-cadastro {
-    margin-top: 64px;
-}
-
-.imagemhome {
-    position: absolute;
-    top: 2px;
-    left: 50px;
-    width: 50px;
-    height: auto;
-}
-
-.imagemsejafidelidade {
-    display: flex;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-items: center;
-    border-radius: 6px;
-    height: auto;
 }
 
 .container-produtos{
@@ -447,9 +459,6 @@ hr{
     font-size: 20px;
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
-}
 
 .navigation {
     position: absolute;
@@ -493,14 +502,19 @@ hr{
 }
 
 
-
-
+.login h1{
+    align-items: center;
+    text-align: center; 
+    color:#4f2701;
+    font-size: 3rem;
+}
 
 .login-box {
     background-color: #835b2d;
     padding: 80px;
     border-radius: 8px;
-    width: 300px;
+    max-width: fit-content;
+    width: 500px;
     margin: 0 auto;
     margin-top: 64px;
     margin-bottom: 64px;
@@ -538,6 +552,46 @@ hr{
     background-color: #fcebd6;
 }
 
+.titulo-cadastro,
+.subtitulo-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 64px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 204px;
+    font-size: 20px;
+    border: #352207;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(236, 192, 156, 0.548);
+    background-color: rgba(252, 252, 252, 0.733);
+}
+
+.subtitulo-cadastro {
+    margin-top: 64px;
+}
+
+.imagemhome {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 50px;
+    height: auto;
+}
+
+.imagemsejafidelidade {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 6px;
+    height: auto;
+}
 
 
 
