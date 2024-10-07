@@ -22,6 +22,12 @@ html::-webkit-scrollbar-thumb{
     border: 3rem;
 }
 
+h1{
+    position: relative;
+    
+    align-items: center;
+}
+
 .background{
     background-image: url(imagem/coffee-background.jpg);
     background-repeat: no-repeat;
@@ -95,7 +101,7 @@ ul li a{
 
 .C-title p{
     color: rgb(37, 36, 36);
-    line-height: 2rem; /* espaçamento entre ele e o titulo */
+    line-height: 2rem;
     font-size: 1.2rem;
     font-weight: 100;
 }
@@ -113,6 +119,13 @@ ul li a{
     letter-spacing: 2px;
     color: beige;
     transition: 0.3s all;
+}
+
+.imagemParagrafo{
+    width: 300px;
+    height: auto;
+    position: relative;
+    transform: translateX(180%); 
 }
 
 
@@ -346,21 +359,23 @@ ul li a{
 }
 
 .container-produtos{
+    flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;    
     padding: 15px;
+    margin: 50px;
     
 }
 
-.produto {
+.produto {  
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
     margin: 10px;
     width: 300px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+      
 }
 
 .produto img {
